@@ -1,0 +1,91 @@
+{
+  "project_info": {
+    "project_number": "996182366220",
+    "firebase_url": "https://wecheerdev.firebaseio.com",
+    "project_id": "wecheerdev",
+    "storage_bucket": "wecheerdev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:996182366220:android:bb8dc0e2dc277067bb3629",
+        "android_client_info": {
+          "package_name": "com.hikami.cheeriobubman.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "996182366220-5a5phgqsir4k2ef0keqegvkab66dt80i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGH349pv5a2zkAeV_Ri7wcqqneI6qivAQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "996182366220-5a5phgqsir4k2ef0keqegvkab66dt80i.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "996182366220-n5j99nv6fuav6grgi958dbdb46dtcekg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.kyanon.hikami.cheeerio.dev"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:996182366220:android:b5641c795729da15",
+        "android_client_info": {
+          "package_name": "com.hikami.cheeriobubmanDev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "996182366220-9umdf2npl6h6qbuch300m09g90i8iskn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hikami.cheeriobubmanDev",
+            "certificate_hash": "48611c21925ebe31f61933c736f32d1c7094e539"
+          }
+        },
+        {
+          "client_id": "996182366220-5a5phgqsir4k2ef0keqegvkab66dt80i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGH349pv5a2zkAeV_Ri7wcqqneI6qivAQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "996182366220-5a5phgqsir4k2ef0keqegvkab66dt80i.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "996182366220-n5j99nv6fuav6grgi958dbdb46dtcekg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.kyanon.hikami.cheeerio.dev"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
