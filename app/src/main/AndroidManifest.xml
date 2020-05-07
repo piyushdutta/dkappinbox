@@ -14,24 +14,43 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <data
+                    android:scheme="https"
+                    android:host="r8bp.page.link"
+                    android:pathPrefix="/open" />
+
+                <data
+                    android:scheme="https"
+                    android:host="www.jokes.com"
+                    android:pathPrefix="/thisshouldwork" />
+
+                <data
+                    android:host="www.darshan.com"
+                    android:scheme="https" />
+
+                <data android:scheme="https"
+                    android:host="www.example.com"/>
             </intent-filter>
         </activity>
 
         <meta-data
             android:name="CLEVERTAP_ACCOUNT_ID"
-            android:value="TEST-54K-948-K85Z"/>
+            android:value="8RK-ZZ6-W75Z"/>
         <meta-data
             android:name="CLEVERTAP_TOKEN"
-            android:value="TEST-b4c-345"/>
-        <!-- IMPORTANT: To force use Google AD ID to uniquely identify  users, use the following meta tag. GDPR mandates that if you are using this tag, there is prominent disclousure to your end customer in their application. Read more about GDPR here - https://clevertap.com/blog/in-preparation-of-gdpr-compliance/ -->
+            android:value="611-32b"/>
+        <!-- IMPORTANT: To force    use Google AD ID to uniquely identify  users, use the following meta tag. GDPR mandates that if you are using this tag, there is prominent disclousure to your end customer in their application. Read more about GDPR here - https://clevertap.com/blog/in-preparation-of-gdpr-compliance/ -->
         <meta-data
             android:name="CLEVERTAP_USE_GOOGLE_AD_ID"
             android:value="1"/>
         <meta-data
             android:name="FCM_SENDER_ID"
-            android:value="id:996182366220"/>
+            android:value="id:855409735174"/>
         <service
             android:name="com.clevertap.android.sdk.FcmTokenListenerService">
             <intent-filter>
